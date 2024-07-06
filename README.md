@@ -6,12 +6,6 @@
 
 Alura-Flix es una aplicación web donde puedes cargar, ver y compartir tus videos favoritos. Puedes organizarlos en categorías, darles me gusta y comentar. ¡Es como tener tu propio Netflix personalizado! 🎬
 
-## Capturas de Pantalla
-
-Aquí tienes una vista previa de cómo se ve Alura-Flix:
-
-!Captura de Pantalla
-
 ## Instrucciones de Instalación
 
 1. Clona este repositorio en tu máquina local:
