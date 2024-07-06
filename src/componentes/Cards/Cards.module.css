@@ -1,0 +1,66 @@
+.cardContainer {
+    border: none;
+    background-color: var(--black);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    @media (max-width: 1200px) {
+        width: auto;
+    }
+}
+
+.imgVideo {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.buttonEliminar,
+.buttonEditar {
+    background-color: transparent;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.buttonEliminar img,
+.buttonEditar img {
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+    width: 20px;
+}
+
+
+.tituloButton {
+    margin: 0;
+    /* Elimina márgenes adicionales alrededor del texto */
+    padding: 0;
+}

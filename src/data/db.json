@@ -1,0 +1,76 @@
+{
+    "video": [
+        {
+            "id": 1,
+            "titulo": "Cuando usar let,var y const",
+            "video": "https://www.youtube.com/watch?v=PztCEdIJITY",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207.png",
+            "categoria": "Front End",
+            "descripcion": "Cuando y como usar let, var y const en javaScript"
+        },
+        {
+            "id": 2,
+            "titulo": "Que es javascript",
+            "video": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-1.png",
+            "categoria": "Front End",
+            "decripcion": "Qués es JavaScript y como se hizo este lenguaje"
+        },
+        {
+            "id": 3,
+            "titulo": "Equipo front end",
+            "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-2.png",
+            "categoria": "Front End",
+            "descripcion": "En este video, Jeanmarie Quijada, instructora Front End en Alura Latam te explica qué hace el equipo de Front End."
+        },
+        {
+            "id": 4,
+            "titulo": "Spring Framework.",
+            "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-3.png",
+            "categoria": "BackEnd",
+            "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework?"
+        },
+        {
+            "id": 5,
+            "titulo": "Qué es SQL y NOSQL",
+            "video": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-4.png",
+            "categoria": "BackEnd",
+            "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo."
+        },
+        {
+            "id": 6,
+            "titulo": "Simplificando tu código en Java. Conoce los enum",
+            "video": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-5.png",
+            "categoria": "BackEnd",
+            "descripcion": "En este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum."
+        },
+        {
+            "id": 7,
+            "titulo": "Que son las softs skills",
+            "video": "https://www.youtube.com/watch?v=vhwspfvI52k&t=189s",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-6.png",
+            "categoria": "Innovacion y Gestion",
+            "descripcion": "En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
+        },
+        {
+            "id": 8,
+            "titulo": "7 Soft Skills más deseadas por las empresas",
+            "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-7.png",
+            "categoria": "Innovacion y Gestion",
+            "descripcion": "¿Sabes cuáles son las 7 más buscadas por las empresas?"
+        },
+        {
+            "id": 9,
+            "titulo": "Metodologias Ágiles ",
+            "video": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+            "imagenVideo": "https://raw.githubusercontent.com/FaboElProgramador/img-dbjson/main/imagen-dbjson/image%207-8.png",
+            "categoria": "Innovacion y Gestion",
+            "descripcion": "Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa."
+        }
+    ]
+}

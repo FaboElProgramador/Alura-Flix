@@ -1,0 +1,17 @@
+:root{
+  --font: "Noto Sans", sans-serif;
+  --dark-grey: #262626;
+  --black: #000000E5;
+  --blue: #2271D1;
+  --white: #FFFFFF;
+  --dark-blue: #03122F;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

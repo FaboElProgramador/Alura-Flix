@@ -1,0 +1,68 @@
+.bannerContainer {
+    width: 100%;
+    height: 470px;
+    background: url('./banner.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        height: auto;
+        padding: 20px;
+    }
+}
+
+.bannerContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0012338F;
+    z-index: 1;
+}
+
+.contentLeft,
+.cardBanner {
+    position: relative;
+    z-index: 2;
+}
+
+.contentLeft {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 60%;
+    padding: 20px;
+}
+
+.tituluBanner {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53px;
+    margin: 0 0 10px 0;
+}
+
+.parrafoBanner {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.cardBanner img {
+    width: 400px;
+    height: 260px;
+    margin-right: 25px;
+
+    @media (max-width: 1200px) {
+        width: 300px;
+        height: auto;
+    }
+}
