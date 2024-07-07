@@ -8,7 +8,7 @@ const PaginaCategorias = () => {
     useEffect(() => {
         const buscarVideos = async () => {
             try {
-                const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video');
+                const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos');
                 setVideos(response.data);
             } catch (error) {
                 console.error("Error buscando videos:", error);

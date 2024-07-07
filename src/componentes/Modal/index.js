@@ -22,7 +22,7 @@ const Modal = () => {
     useEffect(() => {
         const buscarCategorias = async () => {
             try {
-                const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video');
+                const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos');
                 const categoriaUnica = [...new Set(response.data.map(video => video.categoria))];
                 setCategorias(categoriaUnica);
             } catch (error) {

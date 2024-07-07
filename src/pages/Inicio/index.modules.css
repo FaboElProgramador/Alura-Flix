@@ -35,9 +35,7 @@
     border: none;
     border-radius: 10px;
     width: 320px;
-    /* Ajusta el ancho según tus necesidades */
     height: 70px;
-    /* Ajusta la altura según tus necesidades */
     display: flex;
     justify-content: center;
     align-items: center;

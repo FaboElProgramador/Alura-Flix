@@ -18,7 +18,7 @@ export const VideoProvider = ({ children }) => {
 
     const buscarVideos = async () => {
         try {
-            const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video');
+            const response = await axios.get('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos');
             setVideos(response.data);
         } catch (error) {
             console.error('Error buscando videos:', error);
@@ -27,10 +27,9 @@ export const VideoProvider = ({ children }) => {
 
     const manejoGuardarVideo = async (videoEditado) => {
         try {
-            const response = await axios.put(`https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video/${videoEditado.id}`, videoEditado);
+            const response = await axios.put(`https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos/${videoEditado.id}`, videoEditado);
             console.log('Video actualizado:', response.data);
 
-            // Actualizar el video editado en el estado local
             setVideos(prevVideos => {
                 return prevVideos.map(video => {
                     if (video.id === videoEditado.id) {
@@ -40,7 +39,7 @@ export const VideoProvider = ({ children }) => {
                 });
             });
 
-            closeModal(); // Cerrar modal después de guardar cambios
+            closeModal();
         } catch (error) {
             console.error('Error en actualizacion video:', error);
         }
@@ -48,13 +47,10 @@ export const VideoProvider = ({ children }) => {
 
     const manejoAgregarVideo = async (nuevoVideo) => {
         try {
-            const response = await axios.post('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video', nuevoVideo);
+            const response = await axios.post('https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos', nuevoVideo);
             console.log('Nuevo video agregado:', response.data);
 
-            // Actualizar la lista de videos en el estado global
             setVideos(prevVideos => [...prevVideos, response.data]);
-            // Opcionalmente, puedes volver a llamar a buscarVideos para asegurar que la lista esté actualizada
-            // buscarVideos();
         } catch (error) {
             console.error('Error agregando video:', error);
         }
@@ -62,7 +58,7 @@ export const VideoProvider = ({ children }) => {
 
     const manejoDeleteVideo = async (videoId) => {
         try {
-            await axios.delete(`https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/video/${videoId}`);
+            await axios.delete(`https://my-json-server.typicode.com/FaboElProgramador/AluraFlix-api/videos/${videoId}`);
             setVideos(prevVideos => prevVideos.filter(video => video.id !== videoId));
         } catch (error) {
             console.error('Error eliminando video:', error);
@@ -75,7 +71,7 @@ export const VideoProvider = ({ children }) => {
     };
 
     const closeModal = () => {
-        seleccionarVideo(null);
+        setSeleccionarVideo(null);
         setIsModalOpen(false);
     };
 

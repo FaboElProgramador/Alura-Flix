@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom"; import Banner from "componentes/Banner";
 import Cabecera from "../../componentes/Cabecera";
-
 import PieDePagina from "componentes/Footer";
 import { VideoProvider } from "../../context/index";
 

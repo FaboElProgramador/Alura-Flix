@@ -5,7 +5,7 @@ import { useVideoContext } from '../../context';
 import styles from './NuevoVideo.module.css';
 
 const NuevoVideo = () => {
-    const { manejarAgregarVideo, buscarVideos } = useVideoContext();
+    const { manejoAgregarVideo, buscarVideos } = useVideoContext();
     const navigate = useNavigate();
     const inicioVideoState = {
         titulo: '',
@@ -42,7 +42,7 @@ const NuevoVideo = () => {
     const manejarEntrega = async (e) => {
         e.preventDefault();
         try {
-            await manejarAgregarVideo(nuevoVideo);
+            await manejoAgregarVideo(nuevoVideo);
             setNuevoVideo(inicioVideoState);
             buscarVideos();
             navigate('/');

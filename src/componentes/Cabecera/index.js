@@ -9,7 +9,6 @@ function Cabecera() {
             <Link to="/">
                 <section className={styles.logoContainer}>
                     <img src={logo} alt="Logo AluraFlix" />
-
                 </section>
             </Link>
             <nav>

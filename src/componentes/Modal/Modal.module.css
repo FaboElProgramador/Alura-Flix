@@ -4,13 +4,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(3, 18, 47, 0.76);
+    background-color: rgba(3, 18, 47, 0.75);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     overflow: hidden;
-    /* Ocultar el overflow del contenedor */
 }
 
 .modal {
@@ -22,7 +21,6 @@
     max-width: 600px;
     position: relative;
     overflow-y: auto;
-    /* Permitir desplazamiento vertical dentro del modal */
     max-height: calc(100% - 40px);
     scrollbar-width: thin;
     scrollbar-color: var(--blue) var(--dark-blue);
@@ -149,7 +147,6 @@
     transition: transform 0.5s ease-out;
     background-color: transparent;
     margin-bottom: 20px;
-    /* Añadir espacio adicional debajo de los botones */
 }
 
 .buttonGuardar {

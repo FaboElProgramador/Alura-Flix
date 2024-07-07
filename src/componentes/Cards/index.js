@@ -5,7 +5,7 @@ import editar from "./editar.png"
 import { useVideoContext } from "../../context/index";
 
 const CardVideo = ({ video }) => {
-    const { manejoDeleteVideo, openModal } = useVideoContext()
+    const { manejoDeleteVideo, openModal } = useVideoContext();
 
     const manejoDelete = async () => {
         try {

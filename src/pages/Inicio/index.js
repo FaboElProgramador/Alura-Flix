@@ -10,7 +10,6 @@ const categoriasColores = {
     'Front End': '#6BD1FF',
     'BackEnd': '#00C86F',
     'Innovacion y Gestion': '#FFBA05',
-    // Agrega más categorías y colores según sea necesario
 };
 
 const PaginaInicio = () => {

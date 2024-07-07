@@ -54,13 +54,11 @@
 .buttonEliminar img,
 .buttonEditar img {
     margin-right: 10px;
-    /* Espacio entre la imagen y el texto */
     width: 20px;
 }
 
 
 .tituloButton {
     margin: 0;
-    /* Elimina márgenes adicionales alrededor del texto */
     padding: 0;
 }
