@@ -16,6 +16,10 @@
     }
 }
 
+h2{
+    padding: 10px;
+}
+
 .categoria {
     display: flex;
     flex-wrap: wrap;

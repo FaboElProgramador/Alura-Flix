@@ -7,9 +7,9 @@ import { useVideoContext } from "../../context";
 const colorPorDefecto = "#CCCCCC";
 
 const categoriasColores = {
-    'Front End': '#6BD1FF',
-    'BackEnd': '#00C86F',
-    'Innovacion y Gestion': '#FFBA05',
+    'Front End': '#00FFFF',
+    'BackEnd': '#00FF00',
+    'Innovacion y Gestion': '#FFFF00',
 };
 
 const PaginaInicio = () => {

@@ -11,7 +11,9 @@
 body {
   margin: 0;
   font-family: var(--font);
+  background-color: var(--dark-grey);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 5px;
 }
 
